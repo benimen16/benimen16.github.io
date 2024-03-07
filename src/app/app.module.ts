@@ -9,6 +9,9 @@ import { AboutComponent } from './routes/about/about.component';
 import { ProfessionalComponent } from './routes/professional/professional.component';
 import { ProjectsComponent } from './routes/projects/projects.component';
 import { ContactComponent } from './routes/contact/contact.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatMenuModule} from "@angular/material/menu";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ContactComponent } from './routes/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
