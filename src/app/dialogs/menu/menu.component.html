@@ -1,0 +1,39 @@
+<div mat-dialog-content class="dialog-content">
+  <div class="close-button">
+    <button mat-icon-button (click)="close()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  <div class="menu">
+    <span
+      [routerLink]="'/'"
+      (click)="close()"
+    >
+      Home
+    </span>
+    <span
+      [routerLink]="'/about'"
+      (click)="close()"
+    >
+      About
+    </span>
+    <span
+      [routerLink]="'/professional'"
+      (click)="close()"
+    >
+      Professional
+    </span>
+    <span
+      [routerLink]="'/projects'"
+      (click)="close()"
+    >
+      Projects
+    </span>
+    <span
+      [routerLink]="'/contact'"
+      (click)="close()"
+    >
+      Contact
+    </span>
+  </div>
+</div>

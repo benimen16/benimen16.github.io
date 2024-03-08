@@ -3,26 +3,26 @@
     <span>Benjamin Mullins | Software Engineer</span>
   </div>
   <div class="page-menu">
-    <button mat-icon-button [matMenuTriggerFor]="menu">
+    <button class="menu-button" mat-icon-button (click)="openMenu()">
       <mat-icon>menu</mat-icon>
     </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>
-        <a [routerLink]="'/'">Home</a>
+    <!--<mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="'/'">
+        Home
       </button>
-      <button mat-menu-item>
-        <a [routerLink]="'/about'">About</a>
+      <button mat-menu-item [routerLink]="'/about'">
+        About
       </button>
-      <button mat-menu-item>
-        <a [routerLink]="'/professional'">Professional</a>
+      <button mat-menu-item [routerLink]="'/professional'">
+        Professional
       </button>
-      <button mat-menu-item>
-        <a [routerLink]="'/projects'">Projects</a>
+      <button mat-menu-item [routerLink]="'/projects'">
+        Projects
       </button>
-      <button mat-menu-item>
-        <a [routerLink]="'/contact'">Contact</a>
+      <button mat-menu-item [routerLink]="'/contact'">
+        Contact
       </button>
-    </mat-menu>
+    </mat-menu>-->
 
     <!--<a [routerLink]="'/'">Home</a>
     <a [routerLink]="'/about'">About</a>

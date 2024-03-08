@@ -44,6 +44,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatRippleModule, MatNativeDateModule} from '@angular/material/core';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { MenuComponent } from './dialogs/menu/menu.component';
 
 const completeList = [
   MatAutocompleteModule,
@@ -91,7 +92,8 @@ const completeList = [
     AboutComponent,
     ProfessionalComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
