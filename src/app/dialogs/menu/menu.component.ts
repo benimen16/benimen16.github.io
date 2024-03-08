@@ -8,6 +8,14 @@ import {MatDialogRef} from "@angular/material/dialog";
 })
 export class MenuComponent implements OnInit {
 
+  menuOptions = [
+    { name: 'Home', route: '/' },
+    { name: 'About', route: '/about' },
+    { name: 'Professional', route: '/professional' },
+    { name: 'Projects', route: '/projects' },
+    { name: 'Contact', route: '/contact' },
+  ]
+
   constructor(
     public dialogRef: MatDialogRef<MenuComponent>
   ) { }

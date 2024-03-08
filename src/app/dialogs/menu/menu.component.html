@@ -6,34 +6,11 @@
   </div>
   <div class="menu">
     <span
-      [routerLink]="'/'"
+      *ngFor="let option of menuOptions"
+      [routerLink]="option.route"
       (click)="close()"
     >
-      Home
-    </span>
-    <span
-      [routerLink]="'/about'"
-      (click)="close()"
-    >
-      About
-    </span>
-    <span
-      [routerLink]="'/professional'"
-      (click)="close()"
-    >
-      Professional
-    </span>
-    <span
-      [routerLink]="'/projects'"
-      (click)="close()"
-    >
-      Projects
-    </span>
-    <span
-      [routerLink]="'/contact'"
-      (click)="close()"
-    >
-      Contact
+      {{ option.name }}
     </span>
   </div>
 </div>
