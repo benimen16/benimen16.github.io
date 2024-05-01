@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CardBody } from 'src/app/models/cardBody';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+  aboutMeCard: CardBody = {
+    name: 'Test'
+  }
 
   constructor() { }
 

@@ -45,6 +45,8 @@ import {MatTreeModule} from '@angular/material/tree';
 import {MatRippleModule, MatNativeDateModule} from '@angular/material/core';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { MenuComponent } from './dialogs/menu/menu.component';
+import { CertificationsComponent } from './routes/certifications/certifications.component';
+import { CardComponent } from './shared/card/card.component';
 
 const completeList = [
   MatAutocompleteModule,
@@ -93,7 +95,9 @@ const completeList = [
     ProfessionalComponent,
     ProjectsComponent,
     ContactComponent,
-    MenuComponent
+    MenuComponent,
+    CertificationsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

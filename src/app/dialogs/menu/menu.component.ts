@@ -13,6 +13,7 @@ export class MenuComponent implements OnInit {
     { name: 'About', route: '/about' },
     { name: 'Professional', route: '/professional' },
     { name: 'Projects', route: '/projects' },
+    { name: 'Certifications', route: '/certifications' },
     { name: 'Contact', route: '/contact' },
   ]
 

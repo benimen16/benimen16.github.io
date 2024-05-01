@@ -8,7 +8,29 @@
         />
         <img 
             class="profile-pic"
-            src="../../../assets/images/default-profile-pic.jpg"
+            src="../../../assets/images/profilePicture.jpg"
         />
+    </div>
+    <div class="home-container-body">
+        <!--TODO: make card component for each section to reuse-->
+        <app-card
+            [title]="'Test'"
+            [body]="aboutMeCard"
+        ></app-card>
+        <div class="about-me-summary">
+            <h1 class="about-me">About me</h1>
+        <p class="summary">
+            Experienced Software Engineer with over 4 years of industry experience, specializing in full stack development and innovative solutions. 
+            I have a proven track record of delivering high-quality code and leading teams to success. 
+            I am exceptional at navigating complex challenges, adapting to evolving technologies, and I drive impactful results. 
+            I am skilled in designing and implementing robust front-end solutions, optimizing back-end systems, and regularly contribute to cost-saving initiatives. 
+            I am adept at fostering collaboration, streamlining processes, and delivering excellence in agile environments. 
+            I'm always eager to leverage my expertise to drive innovation and exceed organizational objectives.
+        </p>
+        </div>
+        <div class="current-job-summary">
+            <h1 class="current-job">Where I'm Working</h1>
+            <p>Your mom's house</p>
+        </div>
     </div>
 </div>
