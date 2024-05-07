@@ -1,4 +1,7 @@
 export class CardBody {
-    name?: string;
+    title?: string;
+    subtitle?: string;
+    dateRange?: string;
+    description?: string[];
     isJob?: boolean;
 }

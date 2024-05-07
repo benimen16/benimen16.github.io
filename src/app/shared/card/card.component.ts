@@ -8,8 +8,7 @@ import { CardBody } from 'src/app/models/cardBody';
 })
 export class CardComponent implements OnInit {
 
-  @Input() title: string = '';
-  @Input() body: CardBody = new CardBody;
+  @Input() data: CardBody = new CardBody;
 
   constructor() { }
 

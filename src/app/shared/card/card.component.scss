@@ -1,0 +1,31 @@
+.card-body {
+  border: #b5b5b5 1px solid;
+  border-radius: 5px;
+  //box-shadow: #c89a00 0px 0px 10px;
+  width: 67%;
+  transition: 0.1s;
+  padding: 0 15px;
+  //height: 300px;
+  //overflow: hidden;
+  //text-overflow: ellipsis;
+  //color: linear-gradient(transparent 150px, white);
+}
+
+.card-body:hover {
+  border: #ecb400 1px solid;
+  box-shadow: #ecb400 0 0 5px;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-body:active {
+  border: #ecb400 1px solid;
+  box-shadow: #ecb400 0 0 5px;
+  background-color: #ecb400;
+  color: white;
+}
+
+.header {
+  //h1 { color: #ecb400; }
+  //p { color: darkgray; }
+}

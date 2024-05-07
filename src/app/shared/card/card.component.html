@@ -1,1 +1,16 @@
-<p>card works!</p>
+<div class="card-body">
+  <div class="header">
+    <h1 *ngIf="!data.isJob">{{data.title}}</h1>
+    <h2 *ngIf="data.isJob">{{data.title}}</h2>
+    <p>{{data.subtitle}}</p>
+    <p>{{data.dateRange}}</p>
+  </div>
+  <div class="content">
+    <ul *ngIf="data.isJob">
+      <li *ngFor="let desc of data.description">
+        {{desc}}
+      </li>
+    </ul>
+    <p *ngIf="!data.isJob">{{data.description}}</p>
+  </div>
+</div>
